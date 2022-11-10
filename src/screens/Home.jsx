@@ -28,7 +28,7 @@ const Home = ({ navigation }) => {
   const getWeather = async () => {
     await axios
       .get(
-        `https://api.hgbrasil.com/weather?key=6885cc26&city_name=Mongaguá,SP`
+        `https://api.hgbrasil.com/weather?key=b61cc859&city_name=Mongaguá,SP`
       )
       .then((response) => {
         setCurrentWeather(response.data?.results?.forecast[0]);
