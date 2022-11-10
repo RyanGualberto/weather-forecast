@@ -11,12 +11,12 @@ const PageTitle = styled.Text`
   font-size: 20px;
   font-weight: bold;
   color: #000;
-  top: 25px;
+  top: 5px;
 `;
 
 const PrincipalCard = styled.View`
-  width: 325px;
-  height: 325px;
+  width: 300px;
+  height: 300px;
   background-color: #b224f2;
   border-radius: 100px;
   margin-top: 20px;
@@ -57,9 +57,9 @@ const InfoContainer = styled.View`
 
 const AditionalsInfoContainer = styled.View`
   position: absolute;
-  top: -50px;
+  top: -40px;
   width: 350px;
-  height: 100px;
+  height: 80px;
   background-color: #fff;
   flex-direction: row;
   justify-content: space-between;

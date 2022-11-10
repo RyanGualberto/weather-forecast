@@ -62,7 +62,7 @@ const City = ({ navigation, route }) => {
         <TouchableOpacity
           style={{
             position: "absolute",
-            top: 35,
+            top: 15,
             left: 20,
             zIndex: 1,
           }}
@@ -73,7 +73,7 @@ const City = ({ navigation, route }) => {
 
         <PageTitle>Previsão Para {city}</PageTitle>
         <MainCard
-          description={dataCity?.description}
+          description={currentWeather?.description}
           temp={dataCity?.temp}
           date={dataCity?.date}
           time={dataCity?.time}
