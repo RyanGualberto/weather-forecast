@@ -42,7 +42,7 @@ const City = ({ navigation, route }) => {
 
   const getWeather = async () => {
     await axios
-      .get(`https://api.hgbrasil.com/weather?key=6885cc26&city_name=${city}`)
+      .get(`https://api.hgbrasil.com/weather?key=b61cc859&city_name=${city}`)
       .then((response) => {
         setCurrentWeather(response.data?.results?.forecast[0]);
         setDataCity(response.data.results);
